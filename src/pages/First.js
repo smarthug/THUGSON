@@ -73,7 +73,14 @@ export default function Main() {
 
 function Thugson(tmp) {
 
+   // eslint-disable-next-line no-unused-vars
+   var window,
+   // eslint-disable-next-line no-unused-vars
+   document,
+   // eslint-disable-next-line no-unused-vars
+   fetch = null;
 
+  // eslint-disable-next-line no-new-func
   let evalFunc = new Function('tmp'
     , `
 
